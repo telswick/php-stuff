@@ -21,6 +21,11 @@ if ($db->connect_errno) {
     exit();
 }
 
+
+echo "some change is here";
+// testing git issue creation and fixing
+
+
 //goes back to the name attribute of the button
 // $_POST['delete'} or $_POST['submit']
 // in chrome, right click "then inspect element" to see whats going on
